@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 212, 249);
+}
+.ButtonDiv{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.button{
+    background-color: rgb(22, 1, 19);
+    color: white;
+    border: none;
+    animation: buttonAnim 3s infinite;
+    font-size: 35px;
+    padding: 15px 32px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+@keyframes buttonAnim {
+    from{
+        background-color: rgb(75, 0, 64);
+    }
+    to{
+        background-color: rgb(194, 4, 165);
+    }
+}
